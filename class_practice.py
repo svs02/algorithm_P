@@ -3,10 +3,12 @@ class JSS:
         self.name = name
         self.age = age
 
+
 def testa():
     a = JSS("Luke", "31")
     print(a.name)
     print(a.age)
+
 
 class JSS2(JSS):
     def __init__(self, name, age, gender):
